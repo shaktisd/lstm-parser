@@ -1,0 +1,442 @@
+Microsoft Windows [Version 10.0.14393]
+(c) 2016 Microsoft Corporation. All rights reserved.
+
+C:\shakti\eclipse-java-luna-SR1-win32-x86_64\eclipse\workspace\w2vsentimentanalysis>mvn dependency:tree -Dverbose
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building w2vsentimentanalysis 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ w2vsentimentanalysis ---
+Downloading: https://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/flycapture/2.9.3.43-1.2/flycapture-2.9.3.43-1.2.pom
+Downloaded: https://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/flycapture/2.9.3.43-1.2/flycapture-2.9.3.43-1.2.pom (3 KB at 0.5 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/libdc1394/2.2.4-1.2/libdc1394-2.2.4-1.2.pom
+Downloaded: https://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/libdc1394/2.2.4-1.2/libdc1394-2.2.4-1.2.pom (4 KB at 5.3 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/libfreenect/0.5.3-1.2/libfreenect-0.5.3-1.2.pom
+Downloaded: https://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/libfreenect/0.5.3-1.2/libfreenect-0.5.3-1.2.pom (3 KB at 3.8 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/videoinput/0.200-1.2/videoinput-0.200-1.2.pom
+Downloaded: https://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/videoinput/0.200-1.2/videoinput-0.200-1.2.pom (3 KB at 4.8 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/artoolkitplus/2.3.1-1.2/artoolkitplus-2.3.1-1.2.pom
+Downloaded: https://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/artoolkitplus/2.3.1-1.2/artoolkitplus-2.3.1-1.2.pom (3 KB at 3.3 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/flandmark/1.07-1.2/flandmark-1.07-1.2.pom
+Downloaded: https://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/flandmark/1.07-1.2/flandmark-1.07-1.2.pom (4 KB at 6.7 KB/sec)
+[INFO] w2vsentimentanalysis:w2vsentimentanalysis:jar:0.0.1-SNAPSHOT
+[INFO] +- org.deeplearning4j:deeplearning4j-ui:jar:0.6.0:compile
+[INFO] |  +- com.google.guava:guava:jar:19.0:compile
+[INFO] |  +- io.dropwizard:dropwizard-assets:jar:0.8.0:compile
+[INFO] |  |  +- io.dropwizard:dropwizard-core:jar:0.8.0:compile
+[INFO] |  |  |  +- io.dropwizard:dropwizard-util:jar:0.8.0:compile
+[INFO] |  |  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.5.0:compile - omitted for conflict with 2.5.1)
+[INFO] |  |  |  |  +- (com.google.guava:guava:jar:18.0:compile - omitted for conflict with 19.0)
+[INFO] |  |  |  |  +- com.google.code.findbugs:jsr305:jar:3.0.0:compile
+[INFO] |  |  |  |  \- (joda-time:joda-time:jar:2.7:compile - omitted for conflict with 2.9.2)
+[INFO] |  |  |  +- io.dropwizard:dropwizard-jackson:jar:0.8.0:compile
+[INFO] |  |  |  |  +- (com.google.guava:guava:jar:18.0:compile - omitted for conflict with 19.0)
+[INFO] |  |  |  |  +- (io.dropwizard:dropwizard-util:jar:0.8.0:compile - omitted for duplicate)
+[INFO] |  |  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.5.1:compile - omitted for duplicate)
+[INFO] |  |  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.5.1:compile - omitted for duplicate)
+[INFO] |  |  |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk7:jar:2.5.1:compile
+[INFO] |  |  |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-guava:jar:2.5.1:compile
+[INFO] |  |  |  |  +- com.fasterxml.jackson.module:jackson-module-afterburner:jar:2.5.1:compile
+[INFO] |  |  |  |  +- (com.fasterxml.jackson.datatype:jackson-datatype-joda:jar:2.5.1:compile - omitted for conflict with 2.4.4)
+[INFO] |  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.10:compile - omitted for duplicate)
+[INFO] |  |  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.2:compile - omitted for duplicate)
+[INFO] |  |  |  +- io.dropwizard:dropwizard-validation:jar:0.8.0:compile
+[INFO] |  |  |  |  +- (io.dropwizard:dropwizard-util:jar:0.8.0:compile - omitted for duplicate)
+[INFO] |  |  |  |  +- org.hibernate:hibernate-validator:jar:5.1.3.Final:compile
+[INFO] |  |  |  |  |  +- javax.validation:validation-api:jar:1.1.0.Final:compile
+[INFO] |  |  |  |  |  +- org.jboss.logging:jboss-logging:jar:3.1.3.GA:compile
+[INFO] |  |  |  |  |  \- com.fasterxml:classmate:jar:1.0.0:compile
+[INFO] |  |  |  |  \- org.glassfish:javax.el:jar:3.0.0:compile
+[INFO] |  |  |  +- io.dropwizard:dropwizard-configuration:jar:0.8.0:compile
+[INFO] |  |  |  |  +- (io.dropwizard:dropwizard-jackson:jar:0.8.0:compile - omitted for duplicate)
+[INFO] |  |  |  |  +- (io.dropwizard:dropwizard-validation:jar:0.8.0:compile - omitted for duplicate)
+[INFO] |  |  |  |  +- (com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.5.1:compile - omitted for duplicate)
+[INFO] |  |  |  |  \- (org.apache.commons:commons-lang3:jar:3.3.2:compile - omitted for conflict with 3.3.1)
+[INFO] |  |  |  +- io.dropwizard:dropwizard-logging:jar:0.8.0:compile
+[INFO] |  |  |  |  +- (io.dropwizard:dropwizard-jackson:jar:0.8.0:compile - omitted for duplicate)
+[INFO] |  |  |  |  +- (io.dropwizard:dropwizard-validation:jar:0.8.0:compile - omitted for duplicate)
+[INFO] |  |  |  |  +- io.dropwizard.metrics:metrics-logback:jar:3.1.0:compile
+[INFO] |  |  |  |  |  \- (io.dropwizard.metrics:metrics-core:jar:3.1.0:compile - omitted for duplicate)
+[INFO] |  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.10:compile - omitted for duplicate)
+[INFO] |  |  |  |  +- org.slf4j:jul-to-slf4j:jar:1.7.10:compile
+[INFO] |  |  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - omitted for duplicate)
+[INFO] |  |  |  |  +- ch.qos.logback:logback-core:jar:1.1.2:compile
+[INFO] |  |  |  |  +- (ch.qos.logback:logback-classic:jar:1.1.2:compile - omitted for duplicate)
+[INFO] |  |  |  |  +- org.slf4j:log4j-over-slf4j:jar:1.7.10:compile
+[INFO] |  |  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - omitted for duplicate)
+[INFO] |  |  |  |  +- org.slf4j:jcl-over-slf4j:jar:1.7.10:compile
+[INFO] |  |  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - omitted for duplicate)
+[INFO] |  |  |  |  \- org.eclipse.jetty:jetty-util:jar:9.2.9.v20150224:compile
+[INFO] |  |  |  +- io.dropwizard:dropwizard-metrics:jar:0.8.0:compile
+[INFO] |  |  |  |  +- (io.dropwizard:dropwizard-lifecycle:jar:0.8.0:compile - omitted for duplicate)
+[INFO] |  |  |  |  +- (io.dropwizard:dropwizard-jackson:jar:0.8.0:compile - omitted for duplicate)
+[INFO] |  |  |  |  +- (io.dropwizard:dropwizard-validation:jar:0.8.0:compile - omitted for duplicate)
+[INFO] |  |  |  |  +- (io.dropwizard.metrics:metrics-core:jar:3.1.0:compile - omitted for duplicate)
+[INFO] |  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - omitted for duplicate)
+[INFO] |  |  |  +- io.dropwizard:dropwizard-jersey:jar:0.8.0:compile
+[INFO] |  |  |  |  +- (io.dropwizard:dropwizard-jackson:jar:0.8.0:compile - omitted for duplicate)
+[INFO] |  |  |  |  +- (io.dropwizard:dropwizard-validation:jar:0.8.0:compile - omitted for duplicate)
+[INFO] |  |  |  |  +- (io.dropwizard:dropwizard-logging:jar:0.8.0:compile - omitted for duplicate)
+[INFO] |  |  |  |  +- org.glassfish.jersey.core:jersey-server:jar:2.16:compile
+[INFO] |  |  |  |  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.16:compile - omitted for duplicate)
+[INFO] |  |  |  |  |  +- (org.glassfish.jersey.core:jersey-client:jar:2.16:compile - omitted for duplicate)
+[INFO] |  |  |  |  |  +- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile - omitted for duplicate)
+[INFO] |  |  |  |  |  +- org.glassfish.jersey.media:jersey-media-jaxb:jar:2.16:compile
+[INFO] |  |  |  |  |  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.16:compile - omitted for duplicate)
+[INFO] |  |  |  |  |  |  +- (org.glassfish.hk2:hk2-api:jar:2.4.0-b09:compile - omitted for duplicate)
+[INFO] |  |  |  |  |  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.4.0-b09:compile - omitted for duplicate)
+[INFO] |  |  |  |  |  |  +- (org.glassfish.hk2:hk2-locator:jar:2.4.0-b09:compile - omitted for duplicate)
+[INFO] |  |  |  |  |  |  \- (org.glassfish.hk2:osgi-resource-locator:jar:1.0.1:compile - omitted for duplicate)
+[INFO] |  |  |  |  |  +- (javax.annotation:javax.annotation-api:jar:1.2:compile - omitted for duplicate)
+[INFO] |  |  |  |  |  +- (org.glassfish.hk2:hk2-api:jar:2.4.0-b09:compile - omitted for duplicate)
+[INFO] |  |  |  |  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.4.0-b09:compile - omitted for duplicate)
+[INFO] |  |  |  |  |  +- (org.glassfish.hk2:hk2-locator:jar:2.4.0-b09:compile - omitted for duplicate)
+[INFO] |  |  |  |  |  \- (javax.validation:validation-api:jar:1.1.0.Final:compile - omitted for duplicate)
+[INFO] |  |  |  |  +- org.glassfish.jersey.ext:jersey-metainf-services:jar:2.16:compile
+[INFO] |  |  |  |  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.16:compile - omitted for duplicate)
+[INFO] |  |  |  |  |  \- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile - omitted for duplicate)
+[INFO] |  |  |  |  +- io.dropwizard.metrics:metrics-jersey2:jar:3.1.0:compile
+[INFO] |  |  |  |  |  +- (io.dropwizard.metrics:metrics-core:jar:3.1.0:compile - omitted for duplicate)
+[INFO] |  |  |  |  |  \- (io.dropwizard.metrics:metrics-annotation:jar:3.1.0:compile - omitted for duplicate)
+[INFO] |  |  |  |  +- com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.5.1:compile
+[INFO] |  |  |  |  |  +- com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:jar:2.5.1:compile
+[INFO] |  |  |  |  |  \- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.5.1:compile
+[INFO] |  |  |  |  +- org.glassfish.jersey.containers:jersey-container-servlet:jar:2.16:compile
+[INFO] |  |  |  |  |  +- org.glassfish.jersey.containers:jersey-container-servlet-core:jar:2.16:compile
+[INFO] |  |  |  |  |  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.4.0-b09:compile - omitted for duplicate)
+[INFO] |  |  |  |  |  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.16:compile - omitted for duplicate)
+[INFO] |  |  |  |  |  |  +- (org.glassfish.jersey.core:jersey-server:jar:2.16:compile - omitted for duplicate)
+[INFO] |  |  |  |  |  |  \- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile - omitted for duplicate)
+[INFO] |  |  |  |  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.16:compile - omitted for duplicate)
+[INFO] |  |  |  |  |  +- (org.glassfish.jersey.core:jersey-server:jar:2.16:compile - omitted for duplicate)
+[INFO] |  |  |  |  |  \- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile - omitted for duplicate)
+[INFO] |  |  |  |  +- org.eclipse.jetty:jetty-server:jar:9.2.9.v20150224:compile
+[INFO] |  |  |  |  |  +- javax.servlet:javax.servlet-api:jar:3.1.0:compile
+[INFO] |  |  |  |  |  +- (org.eclipse.jetty:jetty-http:jar:9.2.9.v20150224:compile - omitted for duplicate)
+[INFO] |  |  |  |  |  \- org.eclipse.jetty:jetty-io:jar:9.2.9.v20150224:compile
+[INFO] |  |  |  |  |     \- (org.eclipse.jetty:jetty-util:jar:9.2.9.v20150224:compile - omitted for duplicate)
+[INFO] |  |  |  |  +- org.eclipse.jetty:jetty-webapp:jar:9.2.9.v20150224:compile
+[INFO] |  |  |  |  |  +- org.eclipse.jetty:jetty-xml:jar:9.2.9.v20150224:compile
+[INFO] |  |  |  |  |  |  \- (org.eclipse.jetty:jetty-util:jar:9.2.9.v20150224:compile - omitted for duplicate)
+[INFO] |  |  |  |  |  \- (org.eclipse.jetty:jetty-servlet:jar:9.2.9.v20150224:compile - omitted for duplicate)
+[INFO] |  |  |  |  \- org.eclipse.jetty:jetty-continuation:jar:9.2.9.v20150224:compile
+[INFO] |  |  |  +- (io.dropwizard:dropwizard-servlets:jar:0.8.0:compile - omitted for duplicate)
+[INFO] |  |  |  +- io.dropwizard:dropwizard-jetty:jar:0.8.0:compile
+[INFO] |  |  |  |  +- (io.dropwizard:dropwizard-logging:jar:0.8.0:compile - omitted for duplicate)
+[INFO] |  |  |  |  +- io.dropwizard.metrics:metrics-jetty9:jar:3.1.0:compile
+[INFO] |  |  |  |  |  \- (io.dropwizard.metrics:metrics-core:jar:3.1.0:compile - omitted for duplicate)
+[INFO] |  |  |  |  +- (org.eclipse.jetty:jetty-server:jar:9.2.9.v20150224:compile - omitted for duplicate)
+[INFO] |  |  |  |  +- org.eclipse.jetty:jetty-servlet:jar:9.2.9.v20150224:compile
+[INFO] |  |  |  |  |  \- org.eclipse.jetty:jetty-security:jar:9.2.9.v20150224:compile
+[INFO] |  |  |  |  |     \- (org.eclipse.jetty:jetty-server:jar:9.2.9.v20150224:compile - omitted for duplicate)
+[INFO] |  |  |  |  +- org.eclipse.jetty:jetty-servlets:jar:9.2.9.v20150224:compile
+[INFO] |  |  |  |  |  +- (org.eclipse.jetty:jetty-continuation:jar:9.2.9.v20150224:compile - omitted for duplicate)
+[INFO] |  |  |  |  |  +- (org.eclipse.jetty:jetty-http:jar:9.2.9.v20150224:compile - omitted for duplicate)
+[INFO] |  |  |  |  |  +- (org.eclipse.jetty:jetty-util:jar:9.2.9.v20150224:compile - omitted for duplicate)
+[INFO] |  |  |  |  |  \- (org.eclipse.jetty:jetty-io:jar:9.2.9.v20150224:compile - omitted for duplicate)
+[INFO] |  |  |  |  \- org.eclipse.jetty:jetty-http:jar:9.2.9.v20150224:compile
+[INFO] |  |  |  |     \- (org.eclipse.jetty:jetty-util:jar:9.2.9.v20150224:compile - omitted for duplicate)
+[INFO] |  |  |  +- io.dropwizard:dropwizard-lifecycle:jar:0.8.0:compile
+[INFO] |  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.10:compile - omitted for duplicate)
+[INFO] |  |  |  |  +- (com.google.guava:guava:jar:18.0:compile - omitted for conflict with 19.0)
+[INFO] |  |  |  |  +- (org.eclipse.jetty:jetty-server:jar:9.2.9.v20150224:compile - omitted for duplicate)
+[INFO] |  |  |  |  \- (io.dropwizard:dropwizard-util:jar:0.8.0:compile - omitted for duplicate)
+[INFO] |  |  |  +- io.dropwizard.metrics:metrics-core:jar:3.1.0:compile
+[INFO] |  |  |  +- io.dropwizard.metrics:metrics-jvm:jar:3.1.0:compile
+[INFO] |  |  |  |  \- (io.dropwizard.metrics:metrics-core:jar:3.1.0:compile - omitted for duplicate)
+[INFO] |  |  |  +- io.dropwizard.metrics:metrics-servlets:jar:3.1.0:compile
+[INFO] |  |  |  |  +- (io.dropwizard.metrics:metrics-core:jar:3.1.0:compile - omitted for duplicate)
+[INFO] |  |  |  |  +- (io.dropwizard.metrics:metrics-healthchecks:jar:3.1.0:compile - omitted for duplicate)
+[INFO] |  |  |  |  +- io.dropwizard.metrics:metrics-json:jar:3.1.0:compile
+[INFO] |  |  |  |  |  \- (io.dropwizard.metrics:metrics-core:jar:3.1.0:compile - omitted for duplicate)
+[INFO] |  |  |  |  \- (io.dropwizard.metrics:metrics-jvm:jar:3.1.0:compile - omitted for duplicate)
+[INFO] |  |  |  +- io.dropwizard.metrics:metrics-healthchecks:jar:3.1.0:compile
+[INFO] |  |  |  +- net.sourceforge.argparse4j:argparse4j:jar:0.4.4:compile
+[INFO] |  |  |  \- org.eclipse.jetty.toolchain.setuid:jetty-setuid-java:jar:1.0.2:compile
+[INFO] |  |  \- io.dropwizard:dropwizard-servlets:jar:0.8.0:compile
+[INFO] |  |     +- (org.slf4j:slf4j-api:jar:1.7.10:compile - omitted for conflict with 1.7.12)
+[INFO] |  |     +- (io.dropwizard:dropwizard-util:jar:0.8.0:compile - omitted for duplicate)
+[INFO] |  |     +- io.dropwizard.metrics:metrics-annotation:jar:3.1.0:compile
+[INFO] |  |     +- (io.dropwizard.metrics:metrics-core:jar:3.1.0:compile - omitted for duplicate)
+[INFO] |  |     \- ch.qos.logback:logback-classic:jar:1.1.2:compile
+[INFO] |  |        +- (ch.qos.logback:logback-core:jar:1.1.2:compile - omitted for duplicate)
+[INFO] |  |        \- (org.slf4j:slf4j-api:jar:1.7.6:compile - omitted for conflict with 1.7.10)
+[INFO] |  +- io.dropwizard:dropwizard-client:jar:0.8.0:compile
+[INFO] |  |  +- (io.dropwizard:dropwizard-core:jar:0.8.0:compile - omitted for duplicate)
+[INFO] |  |  +- org.glassfish.jersey.core:jersey-client:jar:2.16:compile
+[INFO] |  |  |  +- javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile
+[INFO] |  |  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.16:compile - omitted for duplicate)
+[INFO] |  |  |  +- org.glassfish.hk2:hk2-api:jar:2.4.0-b09:compile
+[INFO] |  |  |  |  +- org.glassfish.hk2:hk2-utils:jar:2.4.0-b09:compile
+[INFO] |  |  |  |  \- org.glassfish.hk2.external:aopalliance-repackaged:jar:2.4.0-b09:compile
+[INFO] |  |  |  +- org.glassfish.hk2.external:javax.inject:jar:2.4.0-b09:compile
+[INFO] |  |  |  \- org.glassfish.hk2:hk2-locator:jar:2.4.0-b09:compile
+[INFO] |  |  |     +- (org.glassfish.hk2.external:javax.inject:jar:2.4.0-b09:compile - omitted for duplicate)
+[INFO] |  |  |     +- (org.glassfish.hk2.external:aopalliance-repackaged:jar:2.4.0-b09:compile - omitted for duplicate)
+[INFO] |  |  |     +- (org.glassfish.hk2:hk2-api:jar:2.4.0-b09:compile - omitted for duplicate)
+[INFO] |  |  |     +- (org.glassfish.hk2:hk2-utils:jar:2.4.0-b09:compile - omitted for duplicate)
+[INFO] |  |  |     \- org.javassist:javassist:jar:3.18.1-GA:compile
+[INFO] |  |  +- io.dropwizard.metrics:metrics-httpclient:jar:3.1.0:compile
+[INFO] |  |  |  +- (io.dropwizard.metrics:metrics-core:jar:3.1.0:compile - omitted for duplicate)
+[INFO] |  |  |  +- org.apache.httpcomponents:httpclient:jar:4.3.5:compile
+[INFO] |  |  |  |  +- org.apache.httpcomponents:httpcore:jar:4.3.2:compile
+[INFO] |  |  |  |  \- (commons-codec:commons-codec:jar:1.6:compile - omitted for conflict with 1.8)
+[INFO] |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for conflict with 1.7.10)
+[INFO] |  |  \- org.glassfish.jersey.connectors:jersey-apache-connector:jar:2.16:compile
+[INFO] |  |     +- (org.glassfish.jersey.core:jersey-common:jar:2.16:compile - omitted for duplicate)
+[INFO] |  |     +- (org.glassfish.jersey.core:jersey-client:jar:2.16:compile - omitted for duplicate)
+[INFO] |  |     \- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile - omitted for duplicate)
+[INFO] |  +- io.dropwizard:dropwizard-forms:jar:0.8.0:compile
+[INFO] |  |  +- (io.dropwizard:dropwizard-core:jar:0.8.0:compile - omitted for duplicate)
+[INFO] |  |  \- (org.glassfish.jersey.media:jersey-media-multipart:jar:2.16:compile - omitted for duplicate)
+[INFO] |  +- org.glassfish.jersey.media:jersey-media-multipart:jar:2.16:compile
+[INFO] |  |  +- org.glassfish.jersey.core:jersey-common:jar:2.16:compile
+[INFO] |  |  |  +- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile - omitted for duplicate)
+[INFO] |  |  |  +- javax.annotation:javax.annotation-api:jar:1.2:compile
+[INFO] |  |  |  +- org.glassfish.jersey.bundles.repackaged:jersey-guava:jar:2.16:compile
+[INFO] |  |  |  +- (org.glassfish.hk2:hk2-api:jar:2.4.0-b09:compile - omitted for duplicate)
+[INFO] |  |  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.4.0-b09:compile - omitted for duplicate)
+[INFO] |  |  |  +- (org.glassfish.hk2:hk2-locator:jar:2.4.0-b09:compile - omitted for duplicate)
+[INFO] |  |  |  \- org.glassfish.hk2:osgi-resource-locator:jar:1.0.1:compile
+[INFO] |  |  \- org.jvnet.mimepull:mimepull:jar:1.9.3:compile
+[INFO] |  +- io.dropwizard:dropwizard-views-mustache:jar:0.8.0:compile
+[INFO] |  |  +- io.dropwizard:dropwizard-views:jar:0.8.0:compile
+[INFO] |  |  |  \- (io.dropwizard:dropwizard-core:jar:0.8.0:compile - omitted for duplicate)
+[INFO] |  |  \- com.github.spullara.mustache.java:compiler:jar:0.8.17:compile
+[INFO] |  +- io.dropwizard:dropwizard-views-freemarker:jar:0.8.0:compile
+[INFO] |  |  +- (io.dropwizard:dropwizard-views:jar:0.8.0:compile - omitted for duplicate)
+[INFO] |  |  \- org.freemarker:freemarker:jar:2.3.21:compile
+[INFO] |  +- commons-io:commons-io:jar:2.4:compile
+[INFO] |  +- org.deeplearning4j:deeplearning4j-nlp:jar:0.6.0:compile
+[INFO] |  |  +- (org.apache.directory.studio:org.apache.commons.codec:jar:1.8:compile - omitted for duplicate)
+[INFO] |  |  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+[INFO] |  |  +- (org.deeplearning4j:deeplearning4j-core:jar:0.6.0:compile - omitted for duplicate)
+[INFO] |  |  +- (io.dropwizard:dropwizard-assets:jar:0.8.0:compile - omitted for duplicate)
+[INFO] |  |  +- (io.dropwizard:dropwizard-views-mustache:jar:0.8.0:compile - omitted for duplicate)
+[INFO] |  |  +- (io.dropwizard:dropwizard-views-freemarker:jar:0.8.0:compile - omitted for duplicate)
+[INFO] |  |  \- (org.nd4j:nd4j-jackson:jar:0.6.0:compile - omitted for duplicate)
+[INFO] |  \- org.nd4j:nd4j-jackson:jar:0.6.0:compile
+[INFO] |     +- (org.nd4j:nd4j-api:jar:0.6.0:compile - omitted for duplicate)
+[INFO] |     +- com.fasterxml.jackson.core:jackson-core:jar:2.5.1:compile
+[INFO] |     \- com.fasterxml.jackson.core:jackson-databind:jar:2.5.1:compile
+[INFO] |        +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.5.0:compile - omitted for conflict with 2.5.1)
+[INFO] |        \- (com.fasterxml.jackson.core:jackson-core:jar:2.5.1:compile - omitted for duplicate)
+[INFO] +- org.deeplearning4j:deeplearning4j-nlp:jar:sources:0.6.0:compile
+[INFO] |  +- org.apache.directory.studio:org.apache.commons.codec:jar:1.8:compile
+[INFO] |  |  \- commons-codec:commons-codec:jar:1.8:compile
+[INFO] |  +- commons-lang:commons-lang:jar:2.6:compile
+[INFO] |  +- org.deeplearning4j:deeplearning4j-core:jar:0.6.0:compile
+[INFO] |  |  +- org.slf4j:slf4j-api:jar:1.7.12:compile
+[INFO] |  |  +- org.deeplearning4j:deeplearning4j-nn:jar:0.6.0:compile
+[INFO] |  |  |  +- (com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.5.1:compile - omitted for duplicate)
+[INFO] |  |  |  +- (org.apache.commons:commons-compress:jar:1.8:compile - omitted for duplicate)
+[INFO] |  |  |  \- (org.nd4j:nd4j-api:jar:0.6.0:compile - omitted for duplicate)
+[INFO] |  |  +- org.apache.commons:commons-math3:jar:3.4.1:compile
+[INFO] |  |  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+[INFO] |  |  +- org.apache.commons:commons-compress:jar:1.8:compile
+[INFO] |  |  |  \- org.tukaani:xz:jar:1.5:compile
+[INFO] |  |  +- (com.google.guava:guava:jar:11.0:compile - omitted for conflict with 19.0)
+[INFO] |  |  +- (org.nd4j:nd4j-api:jar:0.6.0:compile - omitted for duplicate)
+[INFO] |  |  +- org.apache.commons:commons-lang3:jar:3.3.1:compile
+[INFO] |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.5.1:compile - omitted for duplicate)
+[INFO] |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.5.1:compile - omitted for duplicate)
+[INFO] |  |  +- org.json:json:jar:20131018:compile
+[INFO] |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.5.1:compile
+[INFO] |  |  +- org.projectlombok:lombok:jar:1.16.4:compile
+[INFO] |  |  +- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.5.1:compile
+[INFO] |  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.5.1:compile - omitted for duplicate)
+[INFO] |  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.5.1:compile - omitted for duplicate)
+[INFO] |  |  |  \- org.yaml:snakeyaml:jar:1.12:compile
+[INFO] |  |  +- org.datavec:datavec-nd4j-common:jar:0.6.0:compile
+[INFO] |  |  |  +- (org.datavec:datavec-api:jar:0.6.0:compile - omitted for duplicate)
+[INFO] |  |  |  \- (org.nd4j:nd4j-api:jar:0.6.0:compile - omitted for duplicate)
+[INFO] |  |  +- org.datavec:datavec-api:jar:0.6.0:compile
+[INFO] |  |  |  +- (org.apache.commons:commons-compress:jar:1.8.1:compile - omitted for conflict with 1.8)
+[INFO] |  |  |  +- (org.apache.commons:commons-lang3:jar:3.3.1:compile - omitted for duplicate)
+[INFO] |  |  |  +- (org.apache.commons:commons-math3:jar:3.3:compile - omitted for conflict with 3.4.1)
+[INFO] |  |  |  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+[INFO] |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for conflict with 1.7.12)
+[INFO] |  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.4.4:compile - omitted for conflict with 2.5.1)
+[INFO] |  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.4.4:compile - omitted for conflict with 2.5.1)
+[INFO] |  |  |  +- (com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.4.4:compile - omitted for conflict with 2.5.1)
+[INFO] |  |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-joda:jar:2.4.4:compile
+[INFO] |  |  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.4.0:compile - omitted for conflict with 2.5.1)
+[INFO] |  |  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.4.4:compile - omitted for conflict with 2.5.1)
+[INFO] |  |  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.4.4:compile - omitted for conflict with 2.5.1)
+[INFO] |  |  |  |  \- (joda-time:joda-time:jar:2.2:compile - omitted for conflict with 2.7)
+[INFO] |  |  |  +- joda-time:joda-time:jar:2.9.2:compile
+[INFO] |  |  |  +- (org.projectlombok:lombok:jar:1.16.6:compile - omitted for conflict with 1.16.4)
+[INFO] |  |  |  \- (org.freemarker:freemarker:jar:2.3.23:compile - omitted for conflict with 2.3.21)
+[INFO] |  |  \- org.datavec:datavec-data-image:jar:0.6.0:compile
+[INFO] |  |     +- (org.nd4j:nd4j-buffer:jar:0.6.0:compile - omitted for duplicate)
+[INFO] |  |     +- (org.datavec:datavec-nd4j-common:jar:0.6.0:compile - omitted for duplicate)
+[INFO] |  |     +- com.github.jai-imageio:jai-imageio-core:jar:1.3.0:compile
+[INFO] |  |     +- com.twelvemonkeys.imageio:imageio-jpeg:jar:3.1.1:compile
+[INFO] |  |     |  +- com.twelvemonkeys.imageio:imageio-core:jar:3.1.1:compile
+[INFO] |  |     |  |  +- (com.twelvemonkeys.common:common-lang:jar:3.1.1:compile - omitted for duplicate)
+[INFO] |  |     |  |  +- (com.twelvemonkeys.common:common-io:jar:3.1.1:compile - omitted for duplicate)
+[INFO] |  |     |  |  \- (com.twelvemonkeys.common:common-image:jar:3.1.1:compile - omitted for duplicate)
+[INFO] |  |     |  +- com.twelvemonkeys.imageio:imageio-metadata:jar:3.1.1:compile
+[INFO] |  |     |  |  +- (com.twelvemonkeys.imageio:imageio-core:jar:3.1.1:compile - omitted for duplicate)
+[INFO] |  |     |  |  +- (com.twelvemonkeys.common:common-lang:jar:3.1.1:compile - omitted for duplicate)
+[INFO] |  |     |  |  +- (com.twelvemonkeys.common:common-io:jar:3.1.1:compile - omitted for duplicate)
+[INFO] |  |     |  |  \- (com.twelvemonkeys.common:common-image:jar:3.1.1:compile - omitted for duplicate)
+[INFO] |  |     |  +- com.twelvemonkeys.common:common-lang:jar:3.1.1:compile
+[INFO] |  |     |  +- com.twelvemonkeys.common:common-io:jar:3.1.1:compile
+[INFO] |  |     |  |  \- (com.twelvemonkeys.common:common-lang:jar:3.1.1:compile - omitted for duplicate)
+[INFO] |  |     |  \- com.twelvemonkeys.common:common-image:jar:3.1.1:compile
+[INFO] |  |     |     +- (com.twelvemonkeys.common:common-lang:jar:3.1.1:compile - omitted for duplicate)
+[INFO] |  |     |     \- (com.twelvemonkeys.common:common-io:jar:3.1.1:compile - omitted for duplicate)
+[INFO] |  |     +- com.twelvemonkeys.imageio:imageio-tiff:jar:3.1.1:compile
+[INFO] |  |     |  +- (com.twelvemonkeys.imageio:imageio-core:jar:3.1.1:compile - omitted for duplicate)
+[INFO] |  |     |  +- (com.twelvemonkeys.imageio:imageio-metadata:jar:3.1.1:compile - omitted for duplicate)
+[INFO] |  |     |  +- (com.twelvemonkeys.common:common-lang:jar:3.1.1:compile - omitted for duplicate)
+[INFO] |  |     |  +- (com.twelvemonkeys.common:common-io:jar:3.1.1:compile - omitted for duplicate)
+[INFO] |  |     |  \- (com.twelvemonkeys.common:common-image:jar:3.1.1:compile - omitted for duplicate)
+[INFO] |  |     +- com.twelvemonkeys.imageio:imageio-psd:jar:3.1.1:compile
+[INFO] |  |     |  +- (com.twelvemonkeys.imageio:imageio-core:jar:3.1.1:compile - omitted for duplicate)
+[INFO] |  |     |  +- (com.twelvemonkeys.imageio:imageio-metadata:jar:3.1.1:compile - omitted for duplicate)
+[INFO] |  |     |  +- (com.twelvemonkeys.common:common-lang:jar:3.1.1:compile - omitted for duplicate)
+[INFO] |  |     |  +- (com.twelvemonkeys.common:common-io:jar:3.1.1:compile - omitted for duplicate)
+[INFO] |  |     |  \- (com.twelvemonkeys.common:common-image:jar:3.1.1:compile - omitted for duplicate)
+[INFO] |  |     +- com.twelvemonkeys.imageio:imageio-bmp:jar:3.1.1:compile
+[INFO] |  |     |  +- (com.twelvemonkeys.imageio:imageio-core:jar:3.1.1:compile - omitted for duplicate)
+[INFO] |  |     |  +- (com.twelvemonkeys.common:common-lang:jar:3.1.1:compile - omitted for duplicate)
+[INFO] |  |     |  +- (com.twelvemonkeys.common:common-io:jar:3.1.1:compile - omitted for duplicate)
+[INFO] |  |     |  \- (com.twelvemonkeys.common:common-image:jar:3.1.1:compile - omitted for duplicate)
+[INFO] |  |     +- (org.bytedeco:javacpp:jar:1.2.4:compile - omitted for duplicate)
+[INFO] |  |     +- org.bytedeco:javacv:jar:1.2:compile
+[INFO] |  |     |  +- (org.bytedeco:javacpp:jar:1.2:compile - omitted for conflict with 1.2.4)
+[INFO] |  |     |  +- (org.bytedeco.javacpp-presets:opencv:jar:3.1.0-1.2:compile - omitted for duplicate)
+[INFO] |  |     |  +- (org.bytedeco.javacpp-presets:ffmpeg:jar:3.0.2-1.2:compile - omitted for duplicate)
+[INFO] |  |     |  +- org.bytedeco.javacpp-presets:flycapture:jar:2.9.3.43-1.2:compile
+[INFO] |  |     |  |  +- (org.bytedeco:javacpp:jar:1.2:compile - omitted for conflict with 1.2.4)
+[INFO] |  |     |  |  \- org.bytedeco.javacpp-presets:flycapture:jar:windows-x86_64:2.9.3.43-1.2:compile
+[INFO] |  |     |  |     +- (org.bytedeco:javacpp:jar:1.2:compile - omitted for conflict with 1.2.4)
+[INFO] |  |     |  |     +- (org.bytedeco.javacpp-presets:flycapture:jar:windows-x86_64:2.9.3.43-1.2:compile - omitted for cycle)
+[INFO] |  |     |  |     \- (org.bytedeco.javacpp-presets:flycapture:jar:windows-x86_64:2.9.3.43-1.2:compile - omitted for duplicate)
+[INFO] |  |     |  +- org.bytedeco.javacpp-presets:libdc1394:jar:2.2.4-1.2:compile
+[INFO] |  |     |  |  +- (org.bytedeco:javacpp:jar:1.2:compile - omitted for conflict with 1.2.4)
+[INFO] |  |     |  |  \- org.bytedeco.javacpp-presets:libdc1394:jar:windows-x86_64:2.2.4-1.2:compile
+[INFO] |  |     |  |     +- (org.bytedeco:javacpp:jar:1.2:compile - omitted for conflict with 1.2.4)
+[INFO] |  |     |  |     +- (org.bytedeco.javacpp-presets:libdc1394:jar:windows-x86_64:2.2.4-1.2:compile - omitted for cycle)
+[INFO] |  |     |  |     \- (org.bytedeco.javacpp-presets:libdc1394:jar:windows-x86_64:2.2.4-1.2:compile - omitted for duplicate)
+[INFO] |  |     |  +- org.bytedeco.javacpp-presets:libfreenect:jar:0.5.3-1.2:compile
+[INFO] |  |     |  |  +- (org.bytedeco:javacpp:jar:1.2:compile - omitted for conflict with 1.2.4)
+[INFO] |  |     |  |  \- org.bytedeco.javacpp-presets:libfreenect:jar:windows-x86_64:0.5.3-1.2:compile
+[INFO] |  |     |  |     +- (org.bytedeco:javacpp:jar:1.2:compile - omitted for conflict with 1.2.4)
+[INFO] |  |     |  |     +- (org.bytedeco.javacpp-presets:libfreenect:jar:windows-x86_64:0.5.3-1.2:compile - omitted for cycle)
+[INFO] |  |     |  |     \- (org.bytedeco.javacpp-presets:libfreenect:jar:windows-x86_64:0.5.3-1.2:compile - omitted for duplicate)
+[INFO] |  |     |  +- org.bytedeco.javacpp-presets:videoinput:jar:0.200-1.2:compile
+[INFO] |  |     |  |  +- (org.bytedeco:javacpp:jar:1.2:compile - omitted for conflict with 1.2.4)
+[INFO] |  |     |  |  \- org.bytedeco.javacpp-presets:videoinput:jar:windows-x86_64:0.200-1.2:compile
+[INFO] |  |     |  |     +- (org.bytedeco:javacpp:jar:1.2:compile - omitted for conflict with 1.2.4)
+[INFO] |  |     |  |     +- (org.bytedeco.javacpp-presets:videoinput:jar:windows-x86_64:0.200-1.2:compile - omitted for cycle)
+[INFO] |  |     |  |     \- (org.bytedeco.javacpp-presets:videoinput:jar:windows-x86_64:0.200-1.2:compile - omitted for duplicate)
+[INFO] |  |     |  +- org.bytedeco.javacpp-presets:artoolkitplus:jar:2.3.1-1.2:compile
+[INFO] |  |     |  |  +- (org.bytedeco:javacpp:jar:1.2:compile - omitted for conflict with 1.2.4)
+[INFO] |  |     |  |  \- org.bytedeco.javacpp-presets:artoolkitplus:jar:windows-x86_64:2.3.1-1.2:compile
+[INFO] |  |     |  |     +- (org.bytedeco:javacpp:jar:1.2:compile - omitted for conflict with 1.2.4)
+[INFO] |  |     |  |     +- (org.bytedeco.javacpp-presets:artoolkitplus:jar:windows-x86_64:2.3.1-1.2:compile - omitted for cycle)
+[INFO] |  |     |  |     \- (org.bytedeco.javacpp-presets:artoolkitplus:jar:windows-x86_64:2.3.1-1.2:compile - omitted for duplicate)
+[INFO] |  |     |  \- org.bytedeco.javacpp-presets:flandmark:jar:1.07-1.2:compile
+[INFO] |  |     |     +- (org.bytedeco.javacpp-presets:opencv:jar:3.1.0-1.2:compile - omitted for duplicate)
+[INFO] |  |     |     +- (org.bytedeco:javacpp:jar:1.2:compile - omitted for conflict with 1.2.4)
+[INFO] |  |     |     \- org.bytedeco.javacpp-presets:flandmark:jar:windows-x86_64:1.07-1.2:compile
+[INFO] |  |     |        +- (org.bytedeco.javacpp-presets:opencv:jar:3.1.0-1.2:compile - omitted for duplicate)
+[INFO] |  |     |        +- (org.bytedeco:javacpp:jar:1.2:compile - omitted for conflict with 1.2.4)
+[INFO] |  |     |        +- (org.bytedeco.javacpp-presets:flandmark:jar:windows-x86_64:1.07-1.2:compile - omitted for cycle)
+[INFO] |  |     |        \- (org.bytedeco.javacpp-presets:flandmark:jar:windows-x86_64:1.07-1.2:compile - omitted for duplicate)
+[INFO] |  |     +- org.bytedeco.javacpp-presets:opencv:jar:3.1.0-1.2:compile
+[INFO] |  |     |  +- (org.bytedeco:javacpp:jar:1.2:compile - omitted for conflict with 1.2.4)
+[INFO] |  |     |  \- (org.bytedeco.javacpp-presets:opencv:jar:windows-x86_64:3.1.0-1.2:compile - omitted for duplicate)
+[INFO] |  |     +- org.bytedeco.javacpp-presets:opencv:jar:linux-x86_64:3.1.0-1.2:compile
+[INFO] |  |     |  +- (org.bytedeco:javacpp:jar:1.2:compile - omitted for conflict with 1.2.4)
+[INFO] |  |     |  \- (org.bytedeco.javacpp-presets:opencv:jar:windows-x86_64:3.1.0-1.2:compile - omitted for duplicate)
+[INFO] |  |     +- org.bytedeco.javacpp-presets:opencv:jar:macosx-x86_64:3.1.0-1.2:compile
+[INFO] |  |     |  +- (org.bytedeco:javacpp:jar:1.2:compile - omitted for conflict with 1.2.4)
+[INFO] |  |     |  \- (org.bytedeco.javacpp-presets:opencv:jar:windows-x86_64:3.1.0-1.2:compile - omitted for duplicate)
+[INFO] |  |     +- org.bytedeco.javacpp-presets:opencv:jar:windows-x86_64:3.1.0-1.2:compile
+[INFO] |  |     |  +- (org.bytedeco:javacpp:jar:1.2:compile - omitted for conflict with 1.2.4)
+[INFO] |  |     |  +- (org.bytedeco.javacpp-presets:opencv:jar:windows-x86_64:3.1.0-1.2:compile - omitted for cycle)
+[INFO] |  |     |  \- (org.bytedeco.javacpp-presets:opencv:jar:windows-x86_64:3.1.0-1.2:compile - omitted for duplicate)
+[INFO] |  |     +- org.bytedeco.javacpp-presets:opencv:jar:linux-ppc64le:3.1.0-1.2:compile
+[INFO] |  |     |  +- (org.bytedeco:javacpp:jar:1.2:compile - omitted for conflict with 1.2.4)
+[INFO] |  |     |  \- (org.bytedeco.javacpp-presets:opencv:jar:windows-x86_64:3.1.0-1.2:compile - omitted for duplicate)
+[INFO] |  |     +- org.bytedeco.javacpp-presets:ffmpeg:jar:3.0.2-1.2:compile
+[INFO] |  |     |  +- (org.bytedeco:javacpp:jar:1.2:compile - omitted for conflict with 1.2.4)
+[INFO] |  |     |  \- (org.bytedeco.javacpp-presets:ffmpeg:jar:windows-x86_64:3.0.2-1.2:compile - omitted for duplicate)
+[INFO] |  |     +- org.bytedeco.javacpp-presets:ffmpeg:jar:linux-x86_64:3.0.2-1.2:compile
+[INFO] |  |     |  +- (org.bytedeco:javacpp:jar:1.2:compile - omitted for conflict with 1.2.4)
+[INFO] |  |     |  \- (org.bytedeco.javacpp-presets:ffmpeg:jar:windows-x86_64:3.0.2-1.2:compile - omitted for duplicate)
+[INFO] |  |     +- org.bytedeco.javacpp-presets:ffmpeg:jar:macosx-x86_64:3.0.2-1.2:compile
+[INFO] |  |     |  +- (org.bytedeco:javacpp:jar:1.2:compile - omitted for conflict with 1.2.4)
+[INFO] |  |     |  \- (org.bytedeco.javacpp-presets:ffmpeg:jar:windows-x86_64:3.0.2-1.2:compile - omitted for duplicate)
+[INFO] |  |     +- org.bytedeco.javacpp-presets:ffmpeg:jar:windows-x86_64:3.0.2-1.2:compile
+[INFO] |  |     |  +- (org.bytedeco:javacpp:jar:1.2:compile - omitted for conflict with 1.2.4)
+[INFO] |  |     |  +- (org.bytedeco.javacpp-presets:ffmpeg:jar:windows-x86_64:3.0.2-1.2:compile - omitted for cycle)
+[INFO] |  |     |  \- (org.bytedeco.javacpp-presets:ffmpeg:jar:windows-x86_64:3.0.2-1.2:compile - omitted for duplicate)
+[INFO] |  |     +- org.bytedeco.javacpp-presets:ffmpeg:jar:linux-ppc64le:3.0.2-1.2:compile
+[INFO] |  |     |  +- (org.bytedeco:javacpp:jar:1.2:compile - omitted for conflict with 1.2.4)
+[INFO] |  |     |  \- (org.bytedeco.javacpp-presets:ffmpeg:jar:windows-x86_64:3.0.2-1.2:compile - omitted for duplicate)
+[INFO] |  |     +- org.bytedeco.javacpp-presets:leptonica:jar:1.73-1.2:compile
+[INFO] |  |     |  +- (org.bytedeco:javacpp:jar:1.2:compile - omitted for conflict with 1.2.4)
+[INFO] |  |     |  \- (org.bytedeco.javacpp-presets:leptonica:jar:windows-x86_64:1.73-1.2:compile - omitted for duplicate)
+[INFO] |  |     +- org.bytedeco.javacpp-presets:leptonica:jar:linux-x86_64:1.73-1.2:compile
+[INFO] |  |     |  +- (org.bytedeco:javacpp:jar:1.2:compile - omitted for conflict with 1.2.4)
+[INFO] |  |     |  \- (org.bytedeco.javacpp-presets:leptonica:jar:windows-x86_64:1.73-1.2:compile - omitted for duplicate)
+[INFO] |  |     +- org.bytedeco.javacpp-presets:leptonica:jar:macosx-x86_64:1.73-1.2:compile
+[INFO] |  |     |  +- (org.bytedeco:javacpp:jar:1.2:compile - omitted for conflict with 1.2.4)
+[INFO] |  |     |  \- (org.bytedeco.javacpp-presets:leptonica:jar:windows-x86_64:1.73-1.2:compile - omitted for duplicate)
+[INFO] |  |     +- org.bytedeco.javacpp-presets:leptonica:jar:windows-x86_64:1.73-1.2:compile
+[INFO] |  |     |  +- (org.bytedeco:javacpp:jar:1.2:compile - omitted for conflict with 1.2.4)
+[INFO] |  |     |  +- (org.bytedeco.javacpp-presets:leptonica:jar:windows-x86_64:1.73-1.2:compile - omitted for cycle)
+[INFO] |  |     |  \- (org.bytedeco.javacpp-presets:leptonica:jar:windows-x86_64:1.73-1.2:compile - omitted for duplicate)
+[INFO] |  |     +- org.bytedeco.javacpp-presets:leptonica:jar:linux-ppc64le:1.73-1.2:compile
+[INFO] |  |     |  +- (org.bytedeco:javacpp:jar:1.2:compile - omitted for conflict with 1.2.4)
+[INFO] |  |     |  \- (org.bytedeco.javacpp-presets:leptonica:jar:windows-x86_64:1.73-1.2:compile - omitted for duplicate)
+[INFO] |  |     \- (org.nd4j:nd4j-api:jar:0.6.0:compile - omitted for duplicate)
+[INFO] |  +- (io.dropwizard:dropwizard-assets:jar:0.8.0:compile - omitted for duplicate)
+[INFO] |  +- (io.dropwizard:dropwizard-views-mustache:jar:0.8.0:compile - omitted for duplicate)
+[INFO] |  +- (io.dropwizard:dropwizard-views-freemarker:jar:0.8.0:compile - omitted for duplicate)
+[INFO] |  \- (org.nd4j:nd4j-jackson:jar:0.6.0:compile - omitted for duplicate)
+[INFO] \- org.nd4j:nd4j-native:jar:0.6.0:compile
+[INFO]    +- org.nd4j:nd4j-native:jar:windows-x86_64:0.6.0:compile
+[INFO]    |  +- (org.nd4j:nd4j-native:jar:windows-x86_64:0.6.0:compile - omitted for cycle)
+[INFO]    |  +- (org.nd4j:nd4j-native:jar:windows-x86_64:0.6.0:compile - omitted for duplicate)
+[INFO]    |  +- (org.nd4j:nd4j-native-api:jar:0.6.0:compile - omitted for duplicate)
+[INFO]    |  \- (org.nd4j:nd4j-api:jar:0.6.0:compile - omitted for duplicate)
+[INFO]    +- org.nd4j:nd4j-native-api:jar:0.6.0:compile
+[INFO]    |  +- org.nd4j:nd4j-buffer:jar:0.6.0:compile
+[INFO]    |  |  +- org.nd4j:nd4j-common:jar:0.6.0:compile
+[INFO]    |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.10:compile - omitted for conflict with 1.7.12)
+[INFO]    |  |  |  +- org.reflections:reflections:jar:0.9.10:compile
+[INFO]    |  |  |  |  +- (com.google.guava:guava:jar:15.0:compile - omitted for conflict with 19.0)
+[INFO]    |  |  |  |  +- (org.javassist:javassist:jar:3.19.0-GA:compile - omitted for conflict with 3.18.1-GA)
+[INFO]    |  |  |  |  \- com.google.code.findbugs:annotations:jar:2.0.1:compile
+[INFO]    |  |  |  +- (com.google.guava:guava:jar:18.0:compile - omitted for conflict with 19.0)
+[INFO]    |  |  |  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+[INFO]    |  |  |  +- (org.apache.commons:commons-math3:jar:3.4.1:compile - omitted for duplicate)
+[INFO]    |  |  |  \- (org.apache.commons:commons-lang3:jar:3.3.1:compile - omitted for duplicate)
+[INFO]    |  |  +- (org.nd4j:nd4j-context:jar:0.6.0:compile - omitted for duplicate)
+[INFO]    |  |  \- (org.bytedeco:javacpp:jar:1.2.4:compile - omitted for duplicate)
+[INFO]    |  +- (org.nd4j:nd4j-api:jar:0.6.0:compile - omitted for duplicate)
+[INFO]    |  \- org.bytedeco:javacpp:jar:1.2.4:compile
+[INFO]    \- org.nd4j:nd4j-api:jar:0.6.0:compile
+[INFO]       +- (org.slf4j:slf4j-api:jar:1.7.10:compile - omitted for conflict with 1.7.12)
+[INFO]       +- (com.fasterxml.jackson.core:jackson-core:jar:2.5.1:compile - omitted for duplicate)
+[INFO]       +- (com.fasterxml.jackson.core:jackson-databind:jar:2.5.1:compile - omitted for duplicate)
+[INFO]       +- (org.projectlombok:lombok:jar:1.16.4:compile - omitted for duplicate)
+[INFO]       +- (org.nd4j:nd4j-buffer:jar:0.6.0:compile - omitted for duplicate)
+[INFO]       \- org.nd4j:nd4j-context:jar:0.6.0:compile
+[INFO]          \- (org.nd4j:nd4j-common:jar:0.6.0:compile - omitted for duplicate)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 59.645 s
+[INFO] Finished at: 2016-11-24T06:10:03+05:30
+[INFO] Final Memory: 19M/97M
+[INFO] ------------------------------------------------------------------------
+C:\shakti\eclipse-java-luna-SR1-win32-x86_64\eclipse\workspace\w2vsentimentanalysis>
